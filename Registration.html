@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="Girl.png" alt="Illustration of a woman using a laptop">
+        </div>
+        
+        <div class="right">
+            <h2>One Click, Endless Connections!</h2>
+            <form action="#" method="POST" class="form-grid">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <select class="custome-select" name="role" required>
+                        <option value="" disabled selected>Select your role</option>
+                        <option value="student">Student</option>
+                        <option value="alumni">Alumni</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="example123@gmail.com" required>
+                </div>
+
+                <input type="password" name="password" placeholder="Enter password" required>
+
+                <button type="submit">Create Account</button>
+            </form>
+            
+            <div class="login-link">
+                Already have an account? <a href="Login.html">Log in</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="Registration.js"></script>
+
+</body>
+</html>
